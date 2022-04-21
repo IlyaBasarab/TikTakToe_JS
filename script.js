@@ -4,20 +4,7 @@ let field = [
     [2, 2, 2]
 ];
 
-function ShowField() {
 
-    for (let i = 0; i < 3; i++) {
-        let line = '';
-        for (let j = 0; j < 3; j++) {
-            if (field[i][j]!==2)
-            {line += field[i][j] + ' ';}
-            else
-            {line += '_'+' ';}
-        }
-        console.log(line);
-    }
-
-}
 
 
 function WinComb() {
